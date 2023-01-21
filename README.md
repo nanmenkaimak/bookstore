@@ -1,6 +1,7 @@
 # Book Store 
 This is my repo for book store project
 - used gorilla/mux
+- postgresql 
 
 POST 
 - ```curl.exe -X POST http://localhost:8080/books/ -H "Content-Type: application/json" -d '{\"author\":\"tulen\", \"name\":\"alximik\",\"price\":1000, \"sellerid\":2}'```
